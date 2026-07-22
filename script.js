@@ -101,3 +101,51 @@ window.addEventListener("keydown", (event) => {
     closeMenu();
   }
 });
+
+
+const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", async (e) => {
+
+    e.preventDefault();
+
+    const data = {
+        name: form.name.value,
+        company: form.company.value,
+        email: form.email.value,
+        phone: form.phone.value,
+        service: form.service.value,
+        message: form.message.value
+    };
+
+    try {
+
+        const response = await fetch("AKfycbw8Sdvt4FC3fphJ4rt5EfDtwNhphiG4Ew9pwAX7ZotKzH0yav2dipCSZGaC1WVhS68_", {
+
+            method: "POST",
+
+            body: JSON.stringify(data)
+
+        });
+
+        const result = await response.json();
+
+        if (result.result === "success") {
+
+            alert("Thank you! Your inquiry has been submitted.");
+
+            form.reset();
+
+        } else {
+
+            alert("Submission failed.");
+
+        }
+
+    } catch (err) {
+
+        alert("Network error.");
+
+    }
+
+});
