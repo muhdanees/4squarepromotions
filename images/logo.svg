@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="104" viewBox="0 0 340 104" role="img" aria-labelledby="title">
-  <title id="title">4 Square Promotions</title>
-  <rect width="104" height="104" rx="18" fill="#D71920"/>
-  <path d="M66 20v38h16v18H66v12H46V76H14V59l34-39h18ZM34 58h14V42L34 58Z" fill="#fff"/>
-  <path d="M122 29h26c16 0 27 9 27 23s-11 23-27 23h-12v17h-14V29Zm25 34c9 0 14-4 14-11s-5-11-14-11h-11v22h11Z" fill="#1F2937"/>
-  <path d="M184 29h42v12h-28v13h25v12h-25v26h-14V29Zm50 0h14v63h-14V29Zm28 0h14v51h29v12h-43V29Z" fill="#1F2937"/>
-  <text x="122" y="101" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#D71920">PROMOTIONS</text>
-</svg>
